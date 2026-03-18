@@ -1,58 +1,77 @@
-/* Calendar colors */
-.ac__table-item--arrival-possible .ac__table-item-inner {
-  background: #6f8f72 !important;
-  color: #403f2b !important;
-}
-
-.ac__table-item--available .ac__table-item-inner {
-  background: #a7b99c !important;
-  color: #403f2b !important;
-}
-
-.ac__table-item--not-availabile .ac__table-item-inner {
-  background: #c65a4e !important;
-  color: #ffffff !important;
-}
-
-.ac__table-item--only-departure .ac__table-item-inner {
-  background: #a7b99c !important;
-  color: #403f2b !important;
-}
-
-.ac__table-item-skew {
-  background: #c65a4e !important;
-}
-
-/* Legend colors */
-.ac__legend-item--regular .ac__legend-item-indicator {
-  background: #6f8f72 !important;
-  border-color: #6f8f72 !important;
-}
-
-.ac__legend-item--disabled .ac__legend-item-indicator {
-  background: #a7b99c !important;
-  border-color: #a7b99c !important;
-}
-
-.ac__legend-item--semi .ac__legend-item-indicator {
-  background: linear-gradient(-45deg, #c65a4e 50%, #a7b99c 50%) !important;
-  border-color: #a7b99c !important;
-}
-
-.ac__legend-item--none .ac__legend-item-indicator {
-  background: #c65a4e !important;
-  border-color: #c65a4e !important;
-}
+/* ZIRBENNEST COLOR PALETTE
+cream: #F1EAA5
+light beige: #DAD5A0
+taupe: #BCB894
+warm gray: #88867B
+olive-charcoal: #4A4A36
+ink: #2E251F
+dusty blue: #529AE1
+navy: #2F425C
+*/
 
 /* Buttons */
 .mdc-button--raised.mdc-button--primary:not(:disabled),
 .mdc-button--unelevated.mdc-button--primary:not(:disabled) {
-  background-color: #2e251f !important;
-  color: #fefaf0 !important;
+  background-color: #2E251F !important;
+  color: #F5F1E8 !important;
 }
 
 .mdc-button--raised.mdc-button--default:not(:disabled),
 .mdc-button--unelevated.mdc-button--default:not(:disabled) {
-  background-color: #fefaf0 !important;
-  color: #2e251f !important;
+  background-color: #F1EAA5 !important;
+  color: #2E251F !important;
+}
+
+.mdc-button--raised.mdc-button--secondary:not(:disabled),
+.mdc-button--unelevated.mdc-button--secondary:not(:disabled) {
+  background-color: #88867B !important;
+  color: #F5F1E8 !important;
+}
+
+/* Calendar */
+.ac__table-item--arrival-possible .ac__table-item-inner {
+  background: #BCB894 !important;
+  color: #2E251F !important;
+}
+
+.ac__table-item--available .ac__table-item-inner {
+  background: #DAD5A0 !important;
+  color: #2E251F !important;
+}
+
+.ac__table-item--not-availabile .ac__table-item-inner {
+  background: #88867B !important;
+  color: #F5F1E8 !important;
+}
+
+.ac__table-item--only-departure .ac__table-item-inner {
+  background: #DAD5A0 !important;
+  color: #2E251F !important;
+}
+
+.ac__table-item-skew {
+  background: #2F425C !important;
+}
+
+/* Legend */
+.ac__legend-item-indicator {
+  border-color: #BCB894 !important;
+}
+
+.ac__legend-item--regular .ac__legend-item-indicator {
+  background: #BCB894 !important;
+}
+
+.ac__legend-item--disabled .ac__legend-item-indicator {
+  background: #DAD5A0 !important;
+}
+
+.ac__legend-item--semi .ac__legend-item-indicator {
+  background: linear-gradient(-45deg, #2F425C 50%, #DAD5A0 50%) !important;
+  border-color: #DAD5A0 !important;
+}
+
+.ac__legend-item--none .ac__legend-item-indicator {
+  background: #88867B !important;
+  border-color: #88867B !important;
 }
