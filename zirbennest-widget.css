@@ -9,6 +9,10 @@ dusty blue: #529AE1
 navy: #2F425C
 */
 
+* {
+  outline: 3px solid hotpink !important;
+}
+
 /* Buttons */
 .mdc-button--raised.mdc-button--primary:not(:disabled),
 .mdc-button--unelevated.mdc-button--primary:not(:disabled) {
